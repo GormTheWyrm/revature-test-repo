@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<div id="lazy"></div>
+<input id="xxx" type="text">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let myArr = ["blue", "green", "red"];
+ let var2 = 1;
+for (let color in myArr){
+    console.log("light "+color); //light 0,1,2
+    console.log("light "+myArr[color]); //light blue, etc
+}
+for (var2 in myArr){
+    console.log("dark "+var2); 
+    console.log("dark "+myArr[var2]); 
+    //no change with previously defined variable ...
+    console.log("var2 = "+ var2); //2, affected by being used in for loop
+}
+
+
+console.log("from w3");
+let cars = ["BMW", "Volvo", "Mini"];
+let text = "";
+
+for (let x of cars) {
+  text += x + "<br>";
+}
+console.log(cars);
+console.log(text); //BMW<br>Volvo<br>Mini<br>
+
+
+alert("alert!");
+let one = confirm("confirm"); //true-false
+let two = prompt("prompt"); //string
+console.log(one);
+console.log(two);
+
+
+// lazy.
+//.innerHtml("<p>hi</p>");
+// xxx.onClick(console.log("click"));
+//have not got the id to work as an object on its own yet...
+
+
+
+
+
+    </script>
+</body>
+</html>
+
+

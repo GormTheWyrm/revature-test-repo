@@ -1,0 +1,17 @@
+
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ŞÉËª/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(°£ƒøÿÿÿÿ8ŞÉËª/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(”Û¨å8ŞÉËª/
+M
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8ŞÉËª/
+[	java:S125"<This block of commented-out lines of code should be removed.(’•ìËûÿÿÿÿ8¾îìˆ‘/
+[	java:S125"<This block of commented-out lines of code should be removed.(èáúùÿÿÿÿ8ŞÉËª/
+R	java:S106"9Replace this use of System.out or System.err by a logger.(û¸åd8ŞÉËª/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8ŞÉËª/
+o
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(½¨“Ğúÿÿÿÿ8ıÎÏª/
+R
+java:S1481"2Remove this unused "executeUpdate" local variable.(ÂİÚ¿úÿÿÿÿ8¼©çª/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(„µˆ8ŞÉËª/
+c
+java:S2259"HA "NullPointerException" could be thrown; "connection" is nullable here.(ôêÂœ8ŞÉËª/

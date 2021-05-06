@@ -1,0 +1,14 @@
+org/demo/HelloJDBC.java
+ org.demo.HelloJDBC
+org/demo/Play.java
+ org.demo.Play
+org/demo/TestWhere.java
+ org.demo.TestWhere
+org/demo/UpdateDemo.java
+ org.demo.UpdateDemo
+org/demo/DeleteDemo.java
+ org.demo.DeleteDemo
+org/demo/VariableSelect.java
+ org.demo.VariableSelect
+org/demo/VariableInsert.java
+ org.demo.VariableInsert

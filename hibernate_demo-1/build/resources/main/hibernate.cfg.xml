@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+        <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/postgres</property>
+        <property name="hibernate.connection.username">postgres</property>
+        <property name="hibernate.connection.password">password</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL82Dialect</property>
+<!--        testing the below row-->
+        <property name="hibernate.default_schema" >fiddle</property>
+
+
+        <property name="show_sql">true</property>
+        <property name="format_sql">true</property>
+
+        <!--
+        hbm2ddl -> hibernate mapping to the data defination language
+        modes -> 1)create -> it will drop the tables if existing and it will create them and once you close session or factory also the tables will be still existing
+                 2)create-drop ->it will drop the tables at the start of the factory and it will create the tables and at the closing of the factory it will drop the tables again
+                 3)update -> use this mode if all your tables are good and existing, it will neither create the table nor drop the table
+        -->
+        <property name="hbm2ddl.auto">create</property>
+
+        <!--
+        you will be giving Model/POJO/Persistance class entry also here
+        other DB configuration like connection pool, cache memory etc can also be given here
+        -->
+        <mapping class="com.app.model.Player"/>
+        <mapping class="com.app.model.Monster"/>
+
+    </session-factory>
+</hibernate-configuration>

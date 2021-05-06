@@ -1,0 +1,25 @@
+
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ºóÕ†8®˜Ü‘/
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(š—°øÿÿÿÿ8î¨ÜÛ‘/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ª©”®8ñú’Ü‘/
+0
+java:S1220""Move this file to a named package.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(âòÓ”ÿÿÿÿÿ8€œñÛ‘/
+W
+java:S1854"5Remove this useless assignment to local variable "c".(ƒáû‹üÿÿÿÿ8î¨ÜÛ‘/
+8
+java:S2153"Remove the boxing of "ex1".(ñàº»8¸±ŒÜ‘/
+K
+java:S1481")Remove this unused "bigA" local variable.(Ä¾×Âùÿÿÿÿ8ñ €Ü‘/
+8
+java:S2153"Remove the boxing of "ex1".(Áæ¿ç8ØÜ‘/
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(‹ë¾™8ÄÈáÛ‘/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ã²Üùÿÿÿÿ8ØÜ‘/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(…–ğ¥8®˜Ü‘/
+H
+java:S1481"&Remove this unused "c" local variable.(ƒáû‹üÿÿÿÿ8Ê†ÚÛ‘/
+Z
+java:S1854"8Remove this useless assignment to local variable "bigA".(Ä¾×Âùÿÿÿÿ8ñ €Ü‘/
+C
+java:S2111"!Use "BigDecimal.valueOf" instead.(Ä¾×Âùÿÿÿÿ8îÜïÛ‘/

@@ -1,0 +1,74 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'org.example.Demo'
+        )
+    }
+//    run this by "./gradlew build" -> cd into the build/libs folder -> "java -jar gradle-cmd..."(the file there)
+}
+task runjar {
+      //wip
+    //need to figure out a way to create a jar file via this script
+
+
+}
+
+
+
+test {
+    useJUnitPlatform()
+}
+task hey{
+    doLast {
+        println 'Hey Sailor, this is groovy?'
+    }
+    //run with "./gradlew task hey"
+}
+
+task helloWorld {
+    doLast {
+        println("Hello, World!")
+    }
+}
+
+//useful info: https://www.softwaretestinghelp.com/how-to-use-gradle/
+//lifecycle methods: https://docs.gradle.org/current/userguide/build_lifecycle.html
+
+//jar {
+//    archiveBaseName = 'project_zero'
+//    archiveVersion =  '0.1.0'
+//    manifest {
+//        attributes(
+//                'Main-Class': 'tester.Main'
+//        )
+//    }
+//    from {
+//        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+//    }
+//} //mike K's code
+
+//mikes suggested reading
+// https://gradle.org/install/#helpful-information
+// https://docs.gradle.org/current/userguide/java_testing.html
+
+//1) Build jar using "gradle jar" task added in build.gradle from command line
+//2) Run jar using "gradle runJar" task added in build.gradle from command line.
+//3) Run tests using "gradle test --tests package.testClassname and view the generated html
+//4) "gradle build" also runs tests and builds jar.

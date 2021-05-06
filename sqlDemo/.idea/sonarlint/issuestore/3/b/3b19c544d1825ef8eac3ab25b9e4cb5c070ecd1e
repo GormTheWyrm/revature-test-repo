@@ -1,0 +1,18 @@
+
+M
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8Ö£ç©/
+R	java:S106"9Replace this use of System.out or System.err by a logger.(û¸åd8Ö£ç©/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8Ö£ç©/
+V	java:S125"<This block of commented-out lines of code should be removed.(öÍ£Ö8€ğÉª/
+c
+java:S2259"HA "NullPointerException" could be thrown; "connection" is nullable here.(ôêÂœ8Ö£ç©/
+V	java:S125"<This block of commented-out lines of code should be removed.(åÀû 8¤ù»ª/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(”Û¨å8Ö£ç©/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(°£ƒøÿÿÿÿ8Ö£ç©/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(„µˆ8Ö£ç©/
+[	java:S125"<This block of commented-out lines of code should be removed.(èáúùÿÿÿÿ8Êİü©/
+X	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8Ö£ç©/
+g
+java:S2095"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ8Ö£ç©/
+R
+java:S1481"2Remove this unused "executeUpdate" local variable.(ùë†Øúÿÿÿÿ8¤ù»ª/
