@@ -1,0 +1,15 @@
+
+
+java:S1488!"dImmediately return this expression instead of assigning it to the temporary variable "employeeList".(ðá óüÿÿÿÿ
+{
+java:S1488="`Immediately return this expression instead of assigning it to the temporary variable "employee".(Ê‚¾•ûÿÿÿÿ
+z
+java:S1488D"dImmediately return this expression instead of assigning it to the temporary variable "employeeList".(–ŸóÑ
+
+java:S1488L"dImmediately return this expression instead of assigning it to the temporary variable "employeeList".(÷”æ¹úÿÿÿÿ
+o
+java:S1450"YRemove the "dataSource" field and declare it as a local variable in the relevant methods.(â–ŠÐ
+Z
+java:S11340"DTake the required action to fix the issue indicated by this comment.(Á™ê‹
+Z
+java:S1134J"DTake the required action to fix the issue indicated by this comment.(ÓÓ„«

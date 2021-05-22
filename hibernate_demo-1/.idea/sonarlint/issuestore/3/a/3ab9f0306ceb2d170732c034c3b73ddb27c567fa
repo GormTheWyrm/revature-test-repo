@@ -1,10 +1,12 @@
 
-X	java:S1256"<This block of commented-out lines of code should be removed.(æÇ„É8¬ğÜ™”/
-]	java:S1258"<This block of commented-out lines of code should be removed.(ˆ–Šºşÿÿÿÿ8®ñî™”/
-Z	java:S106="9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ8Øã™”/
-X	java:S125;"<This block of commented-out lines of code should be removed.(¥ÆŠ¶8€¦Ş™”/
-G
-java:S1481)"*Remove this unused "slime" local variable.(ØîË‚8ĞÌÑ™”/
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(à¿öÑúÿÿÿÿ8¨Ëš”/
+_
+java:S18548"=Remove this useless assignment to local variable "evilSlime".(œ÷ûÿÿÿÿ8öÙš”/
+c
+java:S1192)"FDefine a constant instead of duplicating this literal "water" 3 times.(ØîË‚8Ê”š”/
 ]	java:S125"<This block of commented-out lines of code should be removed.(ŸôÁûÿÿÿÿ8˜Õ·˜”/
-V
-java:S1854)"9Remove this useless assignment to local variable "slime".(ØîË‚8ĞÌÑ™”/
+X	java:S125<"<This block of commented-out lines of code should be removed.(æÇ„É8¨Ëš”/
+X	java:S125A"<This block of commented-out lines of code should be removed.(¥ÆŠ¶8¨Ëš”/
+P
+java:S14818".Remove this unused "evilSlime" local variable.(œ÷ûÿÿÿÿ8öÙš”/
+]	java:S125>"<This block of commented-out lines of code should be removed.(ˆ–Šºşÿÿÿÿ8¨Ëš”/

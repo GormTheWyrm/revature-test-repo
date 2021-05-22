@@ -1,0 +1,13 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(∫¿‘∑
+0
+java:S1220""Move this file to a named package.
+;
+java:S1181"%Catch Exception instead of Throwable.(Á„ÚÛ
+V	java:S125"<This block of commented-out lines of code should be removed.(∆õÖ¶¯ˇˇˇˇ
+S
+java:S1197"8Move the array designator from the variable to the type.(¶ÏµΩ˚ˇˇˇˇ
+V	java:S125"<This block of commented-out lines of code should be removed.(õë“…˝ˇˇˇˇ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¥æﬂç
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®∂—Õ˛ˇˇˇˇ

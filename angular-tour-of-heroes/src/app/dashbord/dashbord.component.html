@@ -1,0 +1,20 @@
+<h2>Top Heroes</h2>
+<div class="heroes-menu">
+  <a *ngFor="let hero of heroes"
+  routerLink="/detail/{{hero.id}}"
+  [class.selected]="hero === selectedHero"
+(click)="onSelect(hero)"
+  
+  > 
+    {{hero.name}}
+  </a>
+</div>
+<!-- need to figure out how to get hero to become selectedHero...
+      hero as parameter toOnselect becomes selectedHero...
+
+
+         
+[class.selected]="hero === selectedHero"
+(click)="onSelect(hero)"
+need to be where hero is defined! (under div)
+-->

@@ -23,7 +23,7 @@
                  2)create-drop ->it will drop the tables at the start of the factory and it will create the tables and at the closing of the factory it will drop the tables again
                  3)update -> use this mode if all your tables are good and existing, it will neither create the table nor drop the table
         -->
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
 
         <!--
         you will be giving Model/POJO/Persistance class entry also here

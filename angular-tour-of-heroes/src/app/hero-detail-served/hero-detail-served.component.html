@@ -1,0 +1,11 @@
+<div *ngIf="superHero">
+    <h1>Selected Hero</h1>
+    <p>Inner Served Component</p>
+        <!-- I need to figure out how to make this only change on submit... -->
+        <h2>{{superHero.name | uppercase}} Details</h2>
+        <div><span>id: </span>{{superHero.id}}</div>
+        <div><span>name: </span>{{superHero.name}}</div>
+        <label for="sname">Hero name: </label>
+        <input id="sname" [(ngModel)]="superHero.name" placeholder="name">
+        <!-- it starts to get confusing as to which html strings are angular... is placeholder displaying "name"? Probably -->
+    </div>

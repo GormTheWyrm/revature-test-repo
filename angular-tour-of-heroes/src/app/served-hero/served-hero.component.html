@@ -1,0 +1,14 @@
+<h1>Hero Service!</h1>
+<h2>Main Served Heroes</h2>
+<ul class="heroes">
+    <li *ngFor="let hero of superHeroes" (click)="onSelect(hero)" [class.selected]="hero === selectedSuperHero">
+        <!-- above line hero is in a for each and thus class selector refers to that instance of hero! -->
+        <!-- mouseenter... -->
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </li>
+    <!-- hover stopped working... around time onselect added in 
+         
+        -->
+</ul>
+<hr />
+<app-hero-detail-served [superHero]="selectedSuperHero"></app-hero-detail-served>

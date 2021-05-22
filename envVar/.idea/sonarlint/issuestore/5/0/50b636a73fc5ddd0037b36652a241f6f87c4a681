@@ -1,0 +1,13 @@
+
+c
+java:S2095"HUse try-with-resources or close this "FileReader" in a "finally" clause.(Ë¤òûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¾¤şûÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(´äÙîÿÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(Ë¤òûÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(¥…ï¼ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(à»Á³øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ô“¶œ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ê²¾]

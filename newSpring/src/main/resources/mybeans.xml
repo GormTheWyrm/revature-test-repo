@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="p1" class="models.Project">
+        <property name="name" value="Kill Bot"/>
+        <property name="sprintLengthInDays" value="14"/>
+    </bean>
+    <bean id="p2" class="models.Project">
+        <property name="name" value="Little K"/>
+        <property name="sprintLengthInDays" value="14"/>
+    </bean>
+    <bean id="p3" class="models.Project">
+        <property name="name" value="My Little Tony"/>
+        <property name="sprintLengthInDays" value="28"/>
+    </bean>
+
+<bean id="address1" class="models.Address">
+    <property name="aid" value="9000"/>
+    <property name="city" value="Mumbai"/>
+    <property name="zip" value="8000001"/>
+</bean>
+<bean id="carla" class="models.Employee">
+    <property name="name" value ="Robert"/>
+    <property name="address" ref="address1"/>
+    <property name="projects" >
+    <list>
+        <ref bean="p1"></ref>
+        <ref bean="p3"></ref>
+    </list>
+    </property>
+
+</bean>
+<bean id="bob" class="models.Employee">
+    <property name="name" value ="Robert"/>
+    <property name="address" ref="address1"/>
+    <property name="projects" >
+    <list>
+        <ref bean="p1"></ref>
+        <ref bean="p2"></ref>
+    </list>
+    </property>
+</bean>
+
+</beans>

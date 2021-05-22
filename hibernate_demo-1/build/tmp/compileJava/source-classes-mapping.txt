@@ -4,3 +4,5 @@ com/app/model/Monster.java
  com.app.model.Monster
 com/app/main/Main.java
  com.app.main.Main
+com/app/main/Demo3.java
+ com.app.main.Demo3

@@ -1,0 +1,7 @@
+
+p	java:S116"ORename this field "Name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¬­Áøÿÿÿÿ8Áÿ¿”/
+]	java:S125"<This block of commented-out lines of code should be removed.(¦ÆŠºÿÿÿÿÿ8ÿ‡À”/
+J
+java:S1068"(Remove this unused "Name" private field.(É¬­Áøÿÿÿÿ8Áÿ¿”/
+I
+java:S1068"'Remove this unused "age" private field.(Æ†´¦şÿÿÿÿ8ÅÕ€À”/
